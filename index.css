@@ -1,0 +1,194 @@
+body {
+	display: block;
+	width: 85%;
+	margin: auto;
+	top: 5em;
+	position: relative;
+	background-image: url(img/fondo.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: white;
+}
+.foto {
+	
+	position: relative;
+	left: 2em;
+	top: 2px;
+	display: inline-block;
+	z-index: 100;
+}
+.foto-radio {
+	width: 200px;
+	height: 266px;
+	position: relative;
+	border-radius: 25%;
+}
+.title {
+	display:block;
+	position: absolute;
+	top: 1em;
+	left: 10em;
+	margin: 20px;
+	text-align: center;
+
+}
+.title h1, h2{
+	position: relative;
+	left: 30%;
+	display: block;
+	font-size: 50px;
+}
+.barra-nav {
+	text-align: center;
+}
+.barra-nav > ul > li {
+	list-style: none;
+	display: inline;
+	margin: 0 20px;
+}
+.barra-nav > ul > li > a {
+	text-decoration: none;
+}
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: white;
+}
+.lateral-izq {
+	position: relative;
+	display: block;
+	width: 70%;
+	margin: auto;
+	top: 10em;
+	font-size: 30px;
+}
+.lateral-izq section {
+	text-align: justify;
+}
+.lateral-der {
+	position: relative;
+	display: block;
+	width: 80%;
+	margin: auto;
+	top: 20em;
+	font-size: 30px;
+}
+.lateral-der-h3 {
+	margin: 5px;
+}
+.exp > div{
+	background-color: #3F3351;
+	display: inline-block;
+	width: 290px;
+	height: 220px;
+	margin: 5px 10px 5px 0;
+	border-radius: 5%;
+}
+.exp > div > p{
+	font-size: 20px;
+	text-align: justify;
+	padding: 5px;
+}
+.lateral-der-2{
+	position: relative;
+	display: block;
+	width: 80%;
+	margin: auto;
+	top: 10em;
+	font-size: 30px;
+}
+.lateral-der-2 h4{
+	margin: 10px 0;
+}
+.lenguajes {
+	display: inline-block;
+}
+.lenguajes li{
+	list-style: none;
+}
+.barras{
+	display: inline-block;
+	position: relative;
+	left: 3em;
+	top: 10px;
+}
+.barras li {
+	list-style: none;
+}
+.proyectos {
+	position: relative;
+	display: block;
+	width: 80%;
+	margin: auto;
+	top: 40em;
+	font-size: 30px;
+}
+.proyectos h3 {
+	margin: 20px;
+}
+.proyectos > section > div > h5{
+	margin: 5px;
+}
+.proyectos > section > div > p{
+	width: 75%;
+}
+.proyectos > section > div{
+	background-color: #3F3351;
+	display: inline-block;
+	width: 430px;
+	height: 300px;
+	margin: 5px 10px 5px 0;
+	border-radius: 5%;
+	font-size: 25px;
+	text-align: justify;
+}
+.icon-pro {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	left: 14em;
+	bottom: 6em;
+}
+Footer{
+    background: black;
+    height: 70px;
+    position: relative;
+    left: 0;
+    bottom: -1em;
+    width: 100%;
+}
+.navegacion ul li img {
+	width: 25px;
+	height: 25px;
+}
+.navegacion ul li {
+	display: inline;
+	margin: 15px;
+}
+.navegacion ul li a{
+	text-decoration: none;
+	margin: 5px;
+	font-size: 25px;
+}
+.navegacion {
+	text-align: center;
+	display: block;
+}
+#vol1 {
+	border: 3px solid white;
+	display: flex;
+	position: fixed;
+	right: 1em;
+	bottom: 50%;
+	background-color: white;
+	border-radius: 60%;
+	height: 50px;
+	width: 50px;
+}
+.vol1 {
+	-webkit-filter: invert(100%);
+    filter: invert(100%);
+}
